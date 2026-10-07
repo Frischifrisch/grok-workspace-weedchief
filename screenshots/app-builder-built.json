@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "CHIEF — NAVEE Custom Firmware",
+      "hasCanvas": false,
+      "bodyTextLen": 4904,
+      "bodyTextHash": "d43a213dde559213df5e2950fa6d684a60b2dcc622f8ee540967d205759c5b94",
+      "bodyTextPrefix": "CHIEF Home Firmware How It Works Support Garage EN | DE | RU NAV",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "CHIEF — NAVEE Custom Firmware",
+      "hasCanvas": false,
+      "bodyTextLen": 4849,
+      "bodyTextHash": "58e2feb764a12577149b75008028669e460b2dc15d8ba676f971ebd82cfd1df0",
+      "bodyTextPrefix": "CHIEF NAVEE ST5 MAX · ST3 Your scooter. Your firmware. Custom fi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
