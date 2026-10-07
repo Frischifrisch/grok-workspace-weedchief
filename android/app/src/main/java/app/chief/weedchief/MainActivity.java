@@ -94,8 +94,11 @@ public class MainActivity extends Activity {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 Uri uri = request.getUrl();
-                if (uri.getHost() != null && uri.getHost().equalsIgnoreCase(siteHost)
-                        && "https".equalsIgnoreCase(uri.getScheme())) {
+                if (!"https".equalsIgnoreCase(uri.getScheme())) {
+                    Toast.makeText(MainActivity.this, "Nur HTTPS-Links können geöffnet werden.", Toast.LENGTH_SHORT).show();
+                    return true;
+                }
+                if (uri.getHost() != null && uri.getHost().equalsIgnoreCase(siteHost)) {
                     return false;
                 }
                 try {

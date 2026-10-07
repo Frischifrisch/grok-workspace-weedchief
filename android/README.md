@@ -17,6 +17,9 @@ standard local debug key and are intended for sideloading and testing, not
 Google Play distribution. A release build needs a separately managed signing
 key.
 
+The debug APK built for this workspace is available at
+`../dist/CHIEF-debug.apk`.
+
 ## Install and use
 
 Install the APK on an Android device, open CHIEF, and enter the public HTTPS
